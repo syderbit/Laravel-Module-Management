@@ -8,8 +8,8 @@ use Illuminate\Support\Facades\File;
 
 class MakeModule extends Command
 {
-    protected $signature = 'make:module {name}';
-    protected $description = 'Generate a new module under resources/modules';
+    protected $signature = 'make:module-lmm {name}';
+    protected $description = 'Generate a new module under resources/modules with Laravel Module Management';
  
     public function handle()
     {
