@@ -1,2 +1,14 @@
-/.vscode
-.git
+/vendor/
+node_modules/
+.env
+.env.*
+storage/
+bootstrap/cache/
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+/composer.lock
+dist/
+build/
