@@ -1,0 +1,30 @@
+{
+  "name": "syderbit/laravel-module-management",
+  "description": "Laravel Module management system",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Syderbit",
+      "email": "syderbit182@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "illuminate/support": "^8.0|^9.0|^10.0|^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Syderbit\\ModuleManagement\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "syderbit\\ModuleManagement\\ModuleServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
