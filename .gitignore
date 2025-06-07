@@ -12,3 +12,4 @@ Thumbs.db
 /composer.lock
 dist/
 build/
+gitpush.bat

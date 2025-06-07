@@ -40,8 +40,8 @@ class MakeModule extends Command
             [
                 'DummyNamespace',
                 'DummyClass',
-                'DummyView',
-                'DummyViewname',
+                'DummyCView',
+                'DummyVview',
             ],
             [
                 "Modules\\{$className}\\Http\\Controllers",

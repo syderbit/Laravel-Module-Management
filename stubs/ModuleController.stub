@@ -9,6 +9,6 @@ class DummyClass extends Controller
 {
     public function index()
     {
-        return view('DummyView::DummyViewname');
+        return view('DummyCView::DummyVview');
     }
 }
