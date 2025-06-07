@@ -10,7 +10,7 @@ class MakeModule extends Command
 {
     protected $signature = 'make:module {name}';
     protected $description = 'Generate a new module under resources/modules';
-
+ 
     public function handle()
     {
         $name = Str::studly($this->argument('name'));

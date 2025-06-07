@@ -5,8 +5,12 @@ namespace syderbit\ModuleManagement;
 use Illuminate\Support\ServiceProvider;
 use syderbit\ModuleManagement\Console\MakeModule;
 
-class ModuleServiceProvider extends ServiceProvider
+class ModulesServiceProvider extends ServiceProvider
 {
+    public function boot()
+    {
+        //
+    }
     public function register()
     {
         $this->commands([
@@ -14,8 +18,5 @@ class ModuleServiceProvider extends ServiceProvider
         ]);
     }
 
-    public function boot()
-    {
-        //
-    }
+    
 }
