@@ -30,7 +30,7 @@ class MakeModule extends Command
 
         //View
         $nameLower = Str::lower($name);
-        File::put("{$basePath}/resources/views/{$nameLower}.blade.php", "<h1>Module {$name}</h1>");
+        File::put("{$basePath}/resources/views/{$nameLower}view.blade.php", "<h1>Module {$name}</h1>");
         File::put("{$basePath}/resources/assets/js/{$nameLower}.js", "");
 
 
@@ -46,8 +46,8 @@ class MakeModule extends Command
             [
                 "Modules\\{$className}\\Http\\Controllers",
                 "{$className}Controller",
-                $name,
                 $nameLower,
+                "{$nameLower}view",
             ],
             file_get_contents($stubPath)
         );
