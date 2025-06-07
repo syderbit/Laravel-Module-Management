@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Syderbit\\ModuleManagement\\": "src/"
+      "Syderbit\\ModuleManagement\\": "syderbit/laravel-module-management/src/"
     }
   },
   "extra": {
